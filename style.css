@@ -1,0 +1,21 @@
+#t{
+    color: aqua;
+    /* text-align: center; */
+}
+#f{
+    color: aquamarine;
+   /* text-align: center; */
+    
+}
+body{
+    background-color: black;
+    color: aliceblue;
+}
+#submit:hover{
+    color: rgb(211, 39, 39);
+     
+}
+thead{
+    background-color: bisque;
+    color: black;
+}
