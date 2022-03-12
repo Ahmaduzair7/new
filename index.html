@@ -8,55 +8,43 @@
     <link rel="stylesheet" href="./style.css"  >
 </head>
 <body>
-    <h2 id="t" >Table</h2>
-    <table border="1px">
-        <thead>
-            <th>Name</th>
-            <th>Roll no</th>
-            <th>Section</th>
-        </thead>
-        <tbody>
-        <tr>
-            <td>Ahmad</td>
-            <td>219</td>
-            <td>C</td>
-        </tr>
-        <tr>
-            <td>Shams</td>
-            <td>111</td>
-            <td>B</td>
-        </tr>
-        </tbody>
-    </table>
- <br>
- <br>
+ 
+ <div id="main">
  <h2 id="f">Form</h2>
- <form>
-     <label for="username">User Name:</label><input type="text" name="username" id="username" />
-     <label for="email">Email:</label><input type="text" name="email" id="email" />
-     <label for="password">Password:</label><input type="password" name="password" id="password" />
+ <form >
+    <label for="username">User Name:</label><input type="text" name="username" id="username" />
+    <br>
+    <br>
+   
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <label for="email">Email:&nbsp;</label>&nbsp;<input type="text" name="email" id="email" />
+    <br>
+    <br>
+    &nbsp; <label for="password">Password:</label><input type="password" name="password" id="password" />
      <br>
-     <br>
-     <br>
+
+     <h3>Program</h3>
+     
      <label for="it">Information Technology:</label><input type="radio" name="subject" id="it" value="it"/>
      <label for="cs">Computer Science:</label><input type="radio" name="subject" id="cs" value="cs" />
      <br>
-     <br>
-     <label for="p">programing:</label><input type="checkbox" name="p" id="p" />
+    
+     <h3>Skills</h3>
+     <label for="p">Programing:</label><input type="checkbox" name="p" id="p" />
      <label for="d">Designing:</label><input type="checkbox" name="d" id="d" />
 <br>
-<br>
-<br>
+
+<h3>Timing</h3>
      <select>
          
      <option>----please select---</option>
-     <option value="day">Day</option>
-     <option value="night">Night</option>
+     <option value="Morning">Morning</option>
+     <option value="Evening">Evening</option>
  </select>
  <br>
  <br>
  <input type="button" value="Submit" id="submit" />
     </form>
+</div>
 
 </body>
 </html>
