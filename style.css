@@ -9,15 +9,12 @@
 
 
 #submit:hover{
-    color: rgb(211, 39, 39);
+    color: rgb(240, 14, 14);
      
 }
-thead{
-    background-color: bisque;
-    color: black;
-}
+
 #main{
-    background-color:yellow;
+    background-color:rgb(223, 223, 145);
     text-align: center;
     padding: 2%;
     margin: 0% 20% 0% 20%;
