@@ -1,0 +1,80 @@
+
+
+#container{
+   
+   
+
+
+}
+header {
+    background-color: white;
+    display: block;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+    float: left;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+#title{
+    font-size: 1.5em;
+    font-weight: bold;
+    float: left;
+    padding-top: 20px;
+    padding-left: 10px;
+   
+}
+#slogan{
+    
+    clear: left;
+    float: left;
+    margin-left: 80px;
+    margin-top: -20px;
+}
+#search{
+    float: right;
+    margin-right: 5px;
+    margin-top: -24px;
+    
+}
+nav{
+    clear: left;
+    background-color: aliceblue;
+    padding-left: 120px;
+    
+    
+}
+nav ul li {
+    display: inline;
+   padding: 10px;
+   padding-left: 5%;
+   padding-right: 5%;
+    width: 20px;
+    height: 40px;
+    
+
+    
+}
+nav ul{
+    padding-top:15px;
+    text-align: center;
+    height: 40px;
+    text-decoration: none;
+    
+}
+a{
+    text-decoration: none;
+    padding: 2px;
+}
+aside{
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+aside ul li{
+    padding: 10px;
+}
