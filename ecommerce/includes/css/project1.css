@@ -1,7 +1,7 @@
 
 
 #container{
-   
+    background-color: rgb(247, 247, 247);
    
 
 
@@ -84,7 +84,7 @@ search:focus{
 aside{
     width: 28%;
     float: left;
-    background-color:aliceblue;
+    background-color:rgb(228, 239, 248);
     height: 100vh;
     margin-top: 6px;
 
@@ -114,7 +114,9 @@ aside ul li a:hover{
 
 #products{
     width:72%;
-    float: right;
+    display: flex;
+    margin:auto;
+    
     
    
     
@@ -123,18 +125,26 @@ aside ul li a:hover{
 }
 
 #products .card{
-    border: 1px solid black;
-    width: 24%;
+    
+    width: 23%;
     text-align: center;
     float: left;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 20px;
+    margin-left: 38px;
+    background-color: white;
+    transition: transform ease 1s;
+  
     
 
 }
+#products .card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 1px 2px rgb(148, 12, 112) ;
+}
 #products .card img{
     width: 100%;
-    height: 180px;
+    height: 200px;
 
 
 }
@@ -145,18 +155,33 @@ margin-top: 15px;
 z-index: 1;
 
 }
-#products .card p{
+#products .card p.p1{
     margin-top: 15px;
     padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
 
 }
+#products .card p.p2{
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
 #products .card button{
-    width: 100px;
+    width: 100%;
     height: 40px;
     margin-top: 8px;
-    margin-bottom: 2px;
+    
+    border: none;
+    
 
+}
 
+#products .card button:hover{
+   
+    background-color: rgb(148, 12, 112);
+    color: white;
 }
 footer{
     clear: both;
@@ -164,4 +189,6 @@ footer{
     height: 100px;
     background-color: rgb(148, 12, 112);
     text-align: center;
+    color: white;
+    
 }
